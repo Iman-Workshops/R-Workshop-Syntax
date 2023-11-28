@@ -19,6 +19,8 @@ If you want to run R code within a Python Colab notebook, you can use the `rpy2`
 
 ```python
 !pip install rpy2
+```
+
 Use code with caution. Learn more
 Import the rpy2 package using the following command:
 Python
@@ -27,11 +29,11 @@ import rpy2.r as R
 
 Now, you can run R code within Python code cells using the `%%R` magic. For example, the following code will print the value of the variable `x`:
 
-python
+```python
 %%R
 x <- 2 + 3
 print(x)
-
+```
 
 You can also run multiple lines of R code in a cell by starting the cell with `%%R`. For example, the following code will create a vector of numbers and then print the vector:
 
