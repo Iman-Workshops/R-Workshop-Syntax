@@ -39,3 +39,4 @@ You can also run multiple lines of R code in a cell by starting the cell with `%
 %%R
 x <- c(1, 2, 3, 4, 5)
 print(x)
+```
